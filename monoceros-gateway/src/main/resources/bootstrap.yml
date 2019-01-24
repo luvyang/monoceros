@@ -1,0 +1,19 @@
+server:
+  port: 1000
+spring:
+  application:
+    name: monoceros-gateway
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        register: true
+        healthCheckPath: /server/consul/health
+        healthCheckInterval: 10s
+        instance-id: ${spring.application.name}
+zuul:
+  routes:
+    monoceros-server:
+      path: /**
+      serviceId: monoceros-system
