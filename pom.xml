@@ -30,7 +30,7 @@
     </dependencyManagement>
 
     <modules>
-        <module>monoceros-core</module>
+        <module>monoceros-base</module>
         <module>monoceros-config</module>
         <module>monoceros-gateway</module>
         <module>monoceros-web</module>

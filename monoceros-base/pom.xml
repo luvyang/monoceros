@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.arxus</groupId>
-    <artifactId>monoceros-core</artifactId>
-    <version>1.0.0</version>
-    <name>monoceros-core</name>
-    <description>LIFE IS BUT A SPAN</description>
+    <artifactId>monoceros-base</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>monoceros-base</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
